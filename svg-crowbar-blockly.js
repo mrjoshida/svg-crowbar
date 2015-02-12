@@ -15,6 +15,10 @@
   initialize();
 
   function initialize() {
+    
+    var blockly = document.getElementById("blockly").getElementsByClassName("blocklySvg")[0];
+    blockly.removeAttribute("xmlns:xlink");
+    
     var documents = [window.document],
         SVGSources = [];
         iframes = document.querySelectorAll("iframe"),
