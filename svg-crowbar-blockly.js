@@ -16,7 +16,7 @@
 
   function initialize() {
     
-    var blockly = document.getElementById("blockly").getElementsByClassName("blocklySvg")[0];
+    var blockly = document.getElementById("codeWorkspace").getElementsByClassName("blocklySvg")[0];
     blockly.removeAttribute("xmlns:xlink");
     
     var documents = [window.document],
