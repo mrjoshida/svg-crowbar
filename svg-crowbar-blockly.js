@@ -19,7 +19,7 @@
     var blockly = document.getElementById("codeWorkspace").getElementsByClassName("blocklySvg")[0];
     blockly.removeAttribute("xmlns:xlink");
     
-    var toolbox = document.getElementById("codeWorkspace").getElementsByClassName("blocklyFilters")[0];
+    var toolbox = document.getElementById("codeWorkspace").getElementsById("blocklyFilters");
     toolbox.removeAttribute("xmlns:xlink");
     
     var documents = [window.document],
